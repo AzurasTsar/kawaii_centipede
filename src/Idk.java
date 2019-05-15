@@ -42,8 +42,7 @@ public class Idk {
 
 	public static void main(String[] args) {
 		printThing(40);
-		
-		//test.hand_Print("Hello World \nHello World",true,10,30);
+
 	}
 
 
