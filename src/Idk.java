@@ -6,7 +6,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class Idk {
 	
-	private void hand_Print(String s, boolean newline, int min, int max)
+	private static void hand_Print(String s, boolean newline, int min, int max)
 	{
 		
 		for(int i=0; i<s.length(); i++)
@@ -24,7 +24,7 @@ public class Idk {
 	}
 	
 	//what is this i don't even
-	private void printThing(int x)
+	private static void printThing(int x)
 	{
 		Integer i;
 		hand_Print("\n /\\(✿^‿^✿)/\\___/\\ ", true, 10, 30);
@@ -41,8 +41,7 @@ public class Idk {
 	}
 
 	public static void main(String[] args) {
-		Idk what=new Idk();
-		what.printThing(40);
+		printThing(40);
 		
 		//test.hand_Print("Hello World \nHello World",true,10,30);
 	}
